@@ -1,0 +1,101 @@
+
+.body{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.kutu{
+  background-image: url(kahve4.jpeg);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 97%;
+  height: 480px;
+  min-width: 400px;
+
+}
+
+.container{
+  background-color: rgba(0,0,0,0.1);
+  display: flex;
+  flex-direction: column;
+  align-items:center ;
+  height: 400px;
+  width: 300px;
+  min-width: 150px;
+  border-radius: 8px;
+  transition: all 0.15s;
+}
+
+.container:hover{
+ box-shadow: -4px 4px 8px rgba(0, 0, 0, 0.30);
+}
+
+.kahve{
+  display: flex;
+  width: 300px;
+  min-width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+
+.baslik{
+  font-size: 24px;
+  font-weight: bolder;
+  font-family: Kodchasan;
+  margin-top: 14px;
+  margin-left: 10px;
+}
+
+.text{
+  margin-left: 6px;
+  font-family: Kodchasan;
+  font-size: 15px;
+  margin-top: 10px;
+}
+
+.buton{
+  margin-top: 50px;
+  padding: 8px 40px;
+  background-color: rgb(152, 142, 127);
+  border-style: none;
+  border-radius: 6px;
+  color: rgb(66, 14, 14);
+  font-weight: bold;
+  transition: 0.15s;
+}
+
+.buton:hover{
+  padding: 8px 50px;
+  cursor: pointer;
+}
+
+.buton:active{
+  background-color: rgb(169, 158, 141);
+}
+
+.buton2{
+  padding: 7px  200px;
+  background-color: rgb(188, 180, 168);
+  border-style: none;
+  border-radius: 14px;
+  margin-top: 10px;
+  margin-left: 350px;
+  transition: 0.15s;
+}
+.buton2:hover{
+  cursor: pointer;
+}
+
+.buton2:active{
+  cursor: pointer;
+  background-color:rgb(201, 192, 179) ;
+}
